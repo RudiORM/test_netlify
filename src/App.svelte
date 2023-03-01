@@ -4,9 +4,11 @@
   import Button from "./Button.svelte";
   import Resetter from "./Resetter.svelte";
   export let name;
-
+  
+  
   const increment = () => {
     $count += 1;
+    console.log(TEST_KEY)
   };
 </script>
 
