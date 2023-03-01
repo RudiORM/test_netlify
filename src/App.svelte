@@ -8,7 +8,7 @@
   
   const increment = () => {
     $count += 1;
-    console.log(process.env.TEST_KEY)
+    console.log(!process.env.TEST_KEY)
   };
 </script>
 
